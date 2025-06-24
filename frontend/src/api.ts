@@ -15,9 +15,10 @@ import type { UnsplashImage } from "./types"
 // };
 
 const imagesDownload = async (): Promise<UnsplashImage[]> => {
+  const clientId = import.meta.env.VITE_UNSPLASH_CLIENT_ID;
   const response = await axios.get("https://api.unsplash.com/search/photos", {
     headers: {
-      Authorization: "Client-ID SpwqMgyuOEu5WiJI-HLF3PN_Vej-yGVjDRcCnpDRKT8",
+      Authorization: `Client-ID ${clientId}`,
     },
     params: {
       query: "plant",
