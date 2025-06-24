@@ -1,3 +1,5 @@
+![Header](readme_img/logo.png)
+
 # React + TypeScript + Vite
 
 # Project - Greenery - functional frontend with Unsplash API
@@ -7,6 +9,7 @@
 - **[Getting Started](#getting-started)**<br>
 - **[Installing](#installing)**<br>
 - **[Used Dependencies](#dependencies)**<br>
+- **[Photos](#photos)**<br>
 
 ### Getting Started
 This Frontend app is built on React + Vite + Typescript. It connects to Unsplash API to download images in real time, and offers a stylized and functional e-commerce website
@@ -83,3 +86,8 @@ Follow the guide beneath to set up the project:<br>
 9. Formik
 10. Zustand
 11. env
+
+### Photos
+![main](readme_img/main.jpeg)
+![summary](readme_img/summary.jpeg)
+![form](readme_img/form.png)
