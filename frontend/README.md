@@ -1,54 +1,85 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Project - NoSQL + RESTful API Backend for a bakery
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **[Getting Started](#getting-started)**<br>
+- **[Installing](#installing)**<br>
+- **[Used Dependencies](#dependencies)**<br>
 
-## Expanding the ESLint configuration
+### Getting Started
+This Frontend app is built on React + Vite + Typescript. It connects to Unsplash API to download images in real time, and offers a stylized and functional e-commerce website
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Installing
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Follow the guide beneath to set up the project:<br>
+
+1. **Navigate (through the terminal) to the folder where you want to set up the project:**<br>
+
+```
+ PS C:\Users\[your username]> cd [your folder name]
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. **Now, when you have navigated to your desired folder, clone the repository:**<br>
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
 ```
+ git clone https://github.com/werAnnOstrowska/projektReact.git
+```
+
+3. **Initialize a React application and install needed dependencies:**<br>
+    -Still having your terminal open, install the dependencies. The list of needed dependencies can be found in `package.json` file under `dependencies`.
+
+    ```
+     npm create vite@latest folder_name -- --template react-ts
+     npm i 
+     npm run dev
+
+
+ ```
+
+4. **Create a .env file and connect your api**<br>
+
+    ```
+     touch .env
+     nano .env
+     {
+        VITE_UNSPLASH_CLIENT_ID=your_client_id
+     }
+    ```
+    *ctrl + o to save*, *enter*, *ctrl + x to exit*
+
+5. **To run tests, navigate to your app folder .
+
+    ```
+     cd folder_name
+
+    ```
+    To run unit tests with Vitest, run:
+
+    ```
+     npm run test:u
+
+    ```
+
+    To run e2e tests with playwright, run: 
+
+    ```
+     npm run test:e2e
+
+    ```
+
+    
+### Dependencies
+
+1. React router
+2. React Query
+3. Playwright
+4. Vitest
+5. Material Ui
+6. Radix Ui
+7. React Spring
+8. react-chartjs-2
+9. Formik
+10. Zustand
+11. env
