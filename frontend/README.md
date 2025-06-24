@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-# Project - NoSQL + RESTful API Backend for a bakery
+# Project - Greenery - functional frontend with Unsplash API
 
 ## Table of Contents
 
