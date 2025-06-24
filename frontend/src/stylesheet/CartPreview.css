@@ -1,0 +1,15 @@
+.cart-preview_container {
+    /* background-color: #E7F0DC; */
+    background-color: white;
+    /* padding: 2rem;
+    border-radius: 2rem; */
+    width: 30vw;
+    height: 30vh;
+    overflow: scroll;
+}
+
+.cart-preview_wrapper {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+}

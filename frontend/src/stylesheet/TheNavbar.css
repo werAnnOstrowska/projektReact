@@ -1,0 +1,11 @@
+.navbar-container {
+    padding: 1rem 2rem;
+    background: rgb(231, 240, 220);
+}
+
+.circle {
+    background: rgb(89, 116, 69);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+}

@@ -1,0 +1,12 @@
+.products-container {
+    background: linear-gradient(180deg,rgba(231, 240, 220, 1) 10%, rgba(114, 151, 98, 1) 100%);
+    /* width: 100vw;
+    height: 100vh; */
+    /* padding: 2rem; */
+    /* position: relative; */
+    padding-bottom: 2rem;
+}
+
+.cart-icon {
+    padding: 2rem 0;
+}

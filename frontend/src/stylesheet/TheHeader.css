@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=League+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.header-container {
+    /* width: 100vw; */
+    height: 30vh;
+    background: linear-gradient(90deg,rgba(114, 151, 98, 1) 0%, rgba(101, 129, 71, 1) 61%, rgba(89, 116, 69, 1) 100%);
+    position: relative;
+}
+.header-title {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 10%;
+    font-family: "Corinthia", sans-serif;
+    font-size: 6rem;
+    color: #E7F0DC;
+    z-index: 1;
+}
+
+.header-subtitle {
+    position: absolute;
+    right: 75%;
+    top: 55%;
+    color: #E7F0DC;
+    border-bottom: dotted 2px;
+    z-index: 1;
+}
+
+.header-container img {
+    width: 12rem;
+    position: absolute;
+    left: 27%;
+    color: #E7F0DC;
+}

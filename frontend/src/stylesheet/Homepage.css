@@ -1,0 +1,6 @@
+.homepage-container {
+    background: linear-gradient(180deg,rgba(231, 240, 220, 1) 10%, rgba(114, 151, 98, 1) 100%);
+    width: 100vw;
+    height: 100vh;
+    padding: 2rem;
+}
