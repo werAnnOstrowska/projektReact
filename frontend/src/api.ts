@@ -1,6 +1,7 @@
 import axios from "axios";
 import type { UnsplashImage } from "./types"
 
+
 // export type UnsplashImage = {
 //   id: string;
 //   description: string | null;
