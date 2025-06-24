@@ -34,9 +34,9 @@ Follow the guide beneath to set up the project:<br>
      npm create vite@latest folder_name -- --template react-ts
      npm i 
      npm run dev
+    ```
 
 
- ```
 
 4. **Create a .env file and connect your api**<br>
 
